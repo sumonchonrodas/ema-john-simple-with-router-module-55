@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './Login.css'
+import Spinner from '../Spinner/Spinner';
 
 const Login = () => {
     return (
@@ -18,6 +19,7 @@ const Login = () => {
                 <input type="submit" value="Login" className='btn-submit' />
             </form>
             <p><small>new to ema-jon? <Link to='/signup'><span>Creat new account</span></Link></small></p>
+            
         </div>
     );
 };

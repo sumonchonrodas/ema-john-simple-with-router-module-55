@@ -1,0 +1,28 @@
+/* Set up the spinner container */
+.spinner-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Set the height as needed */
+  }
+  
+  /* Create the spinner element */
+  .spinner {
+    width: 100px; /* Adjust the size of the spinner as needed */
+    height: 100px;
+    border: 2px solid #ce1e1e;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite; /* Set the animation properties */
+  }
+  
+  /* Define the animation keyframes */
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
