@@ -16,3 +16,9 @@ nav.header a{
 nav.header a:hover{
     color: orange;
 }
+
+/* CSS for text-white class */
+.text-white {
+    color: #fff; /* Set the text color to white */
+  }
+  

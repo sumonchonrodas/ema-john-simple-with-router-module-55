@@ -1,0 +1,7 @@
+/* CSS for error message */
+.error-message {
+    color: #d8000c; /* Set the text color to a prominent red */
+    border-radius: 4px; /* Round the corners of the message box */
+    font-size: 16px; /* Set the font size for the error message */
+    font-weight: bold; /* Make the text bold for emphasis */
+  }
